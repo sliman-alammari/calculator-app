@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
  
+void Multiply(int a, int b)
+{
+    cout << a * b << endl;
+}
+
+
 void SumNumbers(int a,int b)
 {
 
@@ -24,6 +30,11 @@ int main()
     case '+':
     {
       SumNumbers(a,b);
+    }
+    break;
+    case '*':
+    {
+        Multiply(a, b);
     }
         break;
     
