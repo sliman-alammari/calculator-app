@@ -17,6 +17,10 @@ void SumNumbers(int a,int b)
     cout<<a+b<<endl;
 
 }
+void Subtract(int a, int b)
+{
+    cout << a - b << endl;
+}
 
 int main()
 {
@@ -31,11 +35,18 @@ int main()
     cin>>Operation;
     switch (Operation)
     {
+
     case '+':
     {
       SumNumbers(a,b);
     }
     break;
+
+    case '-':
+    {
+        Subtract(a, b);
+    }break;
+
     case '*':
     {
         Multiply(a, b);
@@ -45,6 +56,8 @@ int main()
     {
         Division(a, b);
     }
+       feature-subtract
+    break;
     default:
         break;
     }
