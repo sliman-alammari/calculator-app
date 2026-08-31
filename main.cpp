@@ -6,6 +6,10 @@ void Multiply(int a, int b)
     cout << a * b << endl;
 }
 
+void Division(int a, int b)
+{
+    cout << a / b << endl;
+}
 
 void SumNumbers(int a,int b)
 {
@@ -37,7 +41,10 @@ int main()
         Multiply(a, b);
     }
         break;
-    
+    case '/':
+    {
+        Division(a, b);
+    }
     default:
         break;
     }
