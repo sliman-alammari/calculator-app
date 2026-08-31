@@ -56,8 +56,8 @@ int main()
     {
         Division(a, b);
     }
+       feature-subtract
     break;
-
     default:
         break;
     }
