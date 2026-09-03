@@ -7,7 +7,7 @@ A simple and lightweight command-line **Calculator Application** built using **C
 * ➖ **Subtraction** (`-`)
 * ✖️ **Multiplication** (`*`)
 * ➗ **Division** (`/`) with built-in protection against division by zero.
-
+* %  **Reminder** ('%')
 ## 🚀 How to Run
 
 To run this project locally, ensure you have a C++ compiler installed (like `g++`), then follow these steps:
