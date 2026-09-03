@@ -22,6 +22,11 @@ void Subtract(int a, int b)
     cout << a - b << endl;
 }
 
+void Reminder(int a, int b)
+{
+    cout << a % b << endl;
+}
+
 int main()
 {
 
@@ -56,7 +61,12 @@ int main()
     {
         Division(a, b);
     }
-       feature-subtract
+    
+    case '%':
+    {
+        Reminder(a, b);
+    }
+    
     break;
     default:
         break;
